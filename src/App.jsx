@@ -13,9 +13,9 @@ function App() {
               <p className="text-sm text-gray-700">Get the latest news and updates.</p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <label class="input validator">
+              <label className="input validator">
                 <svg
-                  class="h-[1em] opacity-50"
+                  className="h-[1em] opacity-50"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                 >
@@ -32,7 +32,7 @@ function App() {
                 </svg>
                 <input type="email" placeholder="mail@site.com" required />
               </label>
-              <div class="validator-hint hidden">Enter valid email address</div>
+              <div className="validator-hint hidden">Enter valid email address</div>
             </div>
             <button
               className="btn btn-secondary mt-2 w-3/5"
@@ -79,39 +79,39 @@ function App() {
               </div>
             </div>
             <div className="mt-16">
-              <div class="chat chat-start">
-                <div class="chat-image avatar">
-                  <div class="w-10 rounded-full">
+              <div className="chat chat-start">
+                <div className="chat-image avatar">
+                  <div className="w-10 rounded-full">
                     <img
                       alt="Tailwind CSS chat bubble component"
                       src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
                     />
                   </div>
                 </div>
-                <div class="chat-header">
+                <div className="chat-header">
                   Tannie Potta
-                  <time class="text-xs opacity-50">12:45</time>
+                  <time className="text-xs opacity-50">12:45</time>
                 </div>
-                <div class="chat-bubble">
+                <div className="chat-bubble">
                   I'm the best there is, the best there was, and the best there ever will be.
                 </div>
-                <div class="chat-footer opacity-50">Delivered</div>
+                <div className="chat-footer opacity-50">Delivered</div>
               </div>
-              <div class="chat chat-end mb-8">
-                <div class="chat-image avatar">
-                  <div class="w-10 rounded-full">
+              <div className="chat chat-end mb-8">
+                <div className="chat-image avatar">
+                  <div className="w-10 rounded-full">
                     <img
                       alt="Tailwind CSS chat bubble component"
                       src="https://randomuser.me/api/portraits/men/53.jpg"
                     />
                   </div>
                 </div>
-                <div class="chat-header">
+                <div className="chat-header">
                   Gabriel Iglesias
-                  <time class="text-xs opacity-50">12:46</time>
+                  <time className="text-xs opacity-50">12:46</time>
                 </div>
-                <div class="chat-bubble">Yo no hablo ingles</div>
-                <div class="chat-footer opacity-50">Seen at 12:46</div>
+                <div className="chat-bubble">Yo no hablo ingles</div>
+                <div className="chat-footer opacity-50">Seen at 12:46</div>
               </div>
             </div>
           </div>
